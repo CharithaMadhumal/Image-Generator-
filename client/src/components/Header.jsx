@@ -58,7 +58,7 @@ const Header = () => {
         transition={{default:{duration:0.5}, opacity:{delay:0.8, duration:1}}}
        
        >
-        Generate Images
+        Generate Images<img src={assets.star_group} alt='' className='h-6'/>
          
        </motion.button>
 
